@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zywaz6i^p&5kxy4-6g2tgw(_hqp#$-#zcv@(3-#um9d#no+p&_'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,16 +80,6 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER': 'postgres',
-        'PASSWORRD': 'root',
-        'HOST': 'localhost'
-    }
-}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -144,12 +134,6 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
-EMAIL_HOST = 'mail.agenturserver.de'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'p387407p27'
-EMAIL_HOST_PASSWORD = ""
-EMAIL_USE_TLS = True
 
 
 try:
