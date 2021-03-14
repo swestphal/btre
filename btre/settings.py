@@ -144,10 +144,3 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
-
-EMAIL_HOST = 'mail.agenturserver.de'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'p387407p27'
-EMAIL_HOST_PASSWORD = "Mar!e2004Molly"
-EMAIL_USE_TLS = True
