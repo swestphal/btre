@@ -144,3 +144,15 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+EMAIL_HOST = 'mail.agenturserver.de'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'p387407p27'
+EMAIL_HOST_PASSWORD = ""
+EMAIL_USE_TLS = True
+
+
+try:
+    from .local_settings import *
+except:
+    pass
